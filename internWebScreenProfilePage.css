@@ -5,8 +5,36 @@ button{
     padding: 8px 12px;
 
     position: static;
-    width: 130px;
+    width: 127px;
     height: 40px;
     left: 0px;
-    top: 168px;
+    top: 224px;
+
+    /* color-white */
+
+    background: #ffffff;
+    border-radius: 50px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+    margin: 16px 0px;
 }
+h1{
+    color: #0A376E;
+    font-weight: bold;
+}
+.vr{
+    position: absolute;
+    width: 1052px;
+    right: -1051px;
+    top: 2px;
+    bottom: 1050px;
+
+    /* color-gray-200 */
+
+    border: 1px solid #DDDDDD;
+    transform: rotate(90deg);
+} 
